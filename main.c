@@ -4,6 +4,9 @@
 int main() {
 
     printf("Hello, World!\n");
+
+    calculatePower();
+
     return 0;
 }
 
