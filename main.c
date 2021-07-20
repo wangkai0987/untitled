@@ -1,12 +1,8 @@
 #include <stdio.h>
-
-void getName() {
-
-}
-
+#include "wangkai/wkSample.h"
 
 int main() {
-    getName();
+
     printf("Hello, World!\n");
     return 0;
 }
