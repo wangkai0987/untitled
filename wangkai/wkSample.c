@@ -36,8 +36,7 @@ void calculatePower() {
         }
     }
 
-    for (; i >= 0; i--)
-    {
+    for (; i >= 0; i--) {
         num[i];
     }
 
@@ -49,3 +48,4 @@ void Frmt(int *buffer) {
         *buffer = *buffer % TenMil;
     }
 }
+

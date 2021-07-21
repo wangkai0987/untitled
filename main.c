@@ -7,7 +7,7 @@ int main() {
 
     printf("Hello, World!\n");
 
-    //calculatePower();
+    calculatePower();
 
     example1();
     example2();
