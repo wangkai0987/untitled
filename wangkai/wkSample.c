@@ -2,7 +2,6 @@
 // Created by Administrator on 2021/7/20.
 //
 
-#include <printf.h>
 #include "wkSample.h"
 
 void calculatePower() {
@@ -20,8 +19,15 @@ void calculatePower() {
     }*/
 
     int num[MAXI] = {
-            0,
+            1,2,3,4,5,6,7,8
     };
+
+    int* nResult0 = &num[0];
+    int* nResult1 = &num[1];
+    int* nResult2 = &num[2];
+
+    int nResult = *nResult0;
+
     Frmt(&num[MAXI]);
     Frmt(&num[MAXI]);
 
