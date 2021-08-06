@@ -2,6 +2,7 @@
 // Created by Administrator on 2021/7/20.
 //
 
+#include <stdio.h>
 #include "wkSample.h"
 
 void calculatePower() {
@@ -38,7 +39,7 @@ void calculatePower() {
     }
 
     for (; i >= 0; i--) {
-        num[i];
+        printf("%d", num[i]);
     }
 
 }
